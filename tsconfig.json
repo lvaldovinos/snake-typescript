@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "alwaysStrict": true,
+    "lib": [
+      "es5",
+      "dom", 
+      "es2017"
+    ],
+    "pretty": true,
+    "downlevelIteration": true,
+    "sourceMap": true,
+    "target": "es5",
+    "types": [
+      "enzyme-adapter-react-16",
+      "css-modules",
+      "enzyme",
+      "jest",
+      "node",
+      "react",
+      "react-dom"
+    ],
+    "jsx": "React",
+    "outDir": "dist/"
+  },
+  "exclude": [
+    "node_modules",
+    "dist"
+  ],
+  "files": [
+    "src/index.ts",
+    "src/app/index.tsx"
+  ],
+  "include": [
+    "src/app/**/*.ts",
+    "src/app/**/*.tsx",
+    "src/app/**/*.css"
+  ]
+}
