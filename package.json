@@ -4,7 +4,6 @@
   "description": "snake game",
   "main": "index.js",
   "scripts": {
-    "compile": "tsc -p tsconfig.json",
     "start:dev": "parcel index.html",
     "test": "jest"
   },
